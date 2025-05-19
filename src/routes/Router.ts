@@ -38,12 +38,40 @@ export const routes: RouterRaw[] = [
         title: "clientes",
         path: "clientes",
         component: () => import("@/pages/Clientes"),
-      },
+  },
       {
         title: "projetos",
         path: "projects",
         component: () => import("@/pages/Projects")
-      }
+  },
+      {
+        title: "fluxo-de-caixa",
+        path: "fluxo-de-caixa",
+        component: () => import("@/pages/FluxoDeCaixa"),
+ },
+      {
+        title: "nova-transacao",
+        path: "nova-transacao",
+        component: () => import("@/pages/NovaTransacao"),
+ },
+      {
+        title: "nova-comissao",
+        path: "nova-comissao",
+        component: () => import("@/pages/NovaComissao"),
+},
+      {
+        title: "exclusao-comissao",
+        path: "exclusao-comissao",
+        component: () => import("@/pages/ExclusaoComissao"),
+},
+      {
+        title: "comissoes",
+        path: "comissoes",
+        component: () => import("@/pages/Comissoes"),
+}
+
+
+
     ],
   },
 ];
